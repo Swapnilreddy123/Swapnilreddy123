@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestLayer.Guru99Test">
+        <methods>
+          <include name="sendValueIncontactInformation"/>
+          <include name="initiation"/>
+          <include name="validatecapturevalue"/>
+          <include name="captureAllDropvalue"/>
+          <include name="countsize"/>
+          <include name="selectCountryfromDropDown"/>
+          <include name="capturescreenshot"/>
+          <include name="sendvalueuserInformation"/>
+          <include name="sendValueInmailingInformation"/>
+        </methods>
+      </class> <!-- TestLayer.Guru99Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
